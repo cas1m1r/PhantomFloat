@@ -11,8 +11,8 @@ This README is written for hackers and tinkerers — short, practical, and ready
 
 ```bash
 # clone the repo (or drop sinkers_and_floaters.py into a folder)
-git clone <your-repo-url>
-cd phantomfloat
+git clone https://github.com/cas1m1r/PhantomFloat
+cd PhantomFloat
 
 # Example usage in Python REPL
 python -c "from sinkers_and_floaters import encode_string, decode_floats; f=encode_string('hello world!'); print(f); print(decode_floats(f))"
@@ -97,7 +97,7 @@ No dependencies. Just Python 3.x.
 
 ```bash
 # clone or copy file into a project
-python3 -c "import sinkers_and_floaters; print('ok')"
+python -c "from sinkers_and_floaters import encode_string, decode_floats; f=encode_string('hello world!'); print(f); print(decode_floats(f))"
 ```
 
 Run the example from the repo root or import the module in your own scripts.
